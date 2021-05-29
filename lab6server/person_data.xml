@@ -252,4 +252,76 @@
 			<z>1</z>
 		</location>
 	</Person>
+	<Person>
+		<id>15</id>
+		<name>Yellow Submarine</name>
+		<coordinates>
+			<x>1.0</x>
+			<y>2.0</y>
+		</coordinates>
+		<creationDate>2021-03-02T18:20:09.717+02:00[Europe/Helsinki]</creationDate>
+		<height>12.0</height>
+		<birthsday>1966-08-05</birthsday>
+		<passportID>uk1966</passportID>
+		<eaycolor>WHITE</eaycolor>
+		<location>
+			<x>1</x>
+			<y>2</y>
+			<z>3</z>
+		</location>
+	</Person>
+	<Person>
+		<id>16</id>
+		<name>Girl</name>
+		<coordinates>
+			<x>2.0</x>
+			<y>2.0</y>
+		</coordinates>
+		<creationDate>2021-03-03T11:08:52.774+02:00[Europe/Helsinki]</creationDate>
+		<height>2.0</height>
+		<birthsday>1965-12-03</birthsday>
+		<passportID>2</passportID>
+		<eaycolor>BLACK</eaycolor>
+		<location>
+			<x>2</x>
+			<y>2</y>
+			<z>2</z>
+		</location>
+	</Person>
+	<Person>
+		<id>17</id>
+		<name>Victor Tsoy</name>
+		<coordinates>
+			<x>1.0</x>
+			<y>2.0</y>
+		</coordinates>
+		<creationDate>2021-03-17T10:03:40.251+02:00[Europe/Helsinki]</creationDate>
+		<height>1.84</height>
+		<birthsday>1962-06-21</birthsday>
+		<passportID>rus1962</passportID>
+		<eaycolor>BLACK</eaycolor>
+		<location>
+			<x>1</x>
+			<y>1</y>
+			<z>1</z>
+		</location>
+	</Person>
+	<Person>
+		<id>18</id>
+		<name>Mr.Bean</name>
+		<coordinates>
+			<x>1.0</x>
+			<y>2.0</y>
+		</coordinates>
+		<creationDate>2021-05-29T16:03:21.386274800+03:00[Europe/Riga]</creationDate>
+		<height>2.0</height>
+		<birthsday>1990-01-01</birthsday>
+		<passportID>UK</passportID>
+		<eaycolor>GREEN</eaycolor>
+		<location>
+			<x>1</x>
+			<y>2</y>
+			<z>2</z>
+		</location>
+	</Person>
 </information>

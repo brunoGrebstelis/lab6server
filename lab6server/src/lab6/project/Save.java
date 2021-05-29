@@ -12,37 +12,31 @@ import java.util.Map.Entry;
 
 import obj.Person;
 
-/**
- * This class saves updated information to xml file
- * @author bruno
- *
- */
-
 public class Save {
 	private LinkedHashMap<Integer, Person> showPersons2;
 	private String envvariable;
 	private String com;
 	private BufferedReader reader;
-	
-	Save(LinkedHashMap<Integer, Person> showPersons2, String envvariable){
-		this.showPersons2=showPersons2;
-		this.envvariable=envvariable;
+
+	Save(LinkedHashMap<Integer, Person> showPersons2, String envvariable) {
+		this.showPersons2 = showPersons2;
+		this.envvariable = envvariable;
 	}
-	
+
 	public void wylts() throws IOException {
 		System.out.println("Would you like to save changes you made?(yes/no)");
 		reader = new BufferedReader(new InputStreamReader(System.in));
 		com = reader.readLine();
-		if(com.equals("yes")) {
+		if (com.equals("yes")) {
 			save();
 			System.out.println("Changes you made have been saved");
 			System.exit(0);
-		}else {
+		} else {
 			System.out.println("Changes you made have not been saved");
 			System.exit(0);
 		}
 	}
-	
+
 	public void save() throws FileNotFoundException {
 
 		PrintWriter writer = new PrintWriter(envvariable);
@@ -86,6 +80,5 @@ public class Save {
 			}
 		}
 	}
-
 
 }
